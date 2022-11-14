@@ -1,0 +1,76 @@
+html {
+    height: 100vh;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    }
+
+    .nav__onglet {
+background-color: gray;
+display: flex;
+padding: 6px;
+text-align: center;
+
+    }
+
+    .nav__item {
+color: white;
+margin-right: 50px;
+    }
+
+    .nav__item--bc {
+
+        color: black;
+        background-color: white
+        ;
+        padding: 3px;
+    }
+
+    .car__menu {
+
+        height: 20%;
+        background-color: beige
+
+    }
+
+    .car__fellow {
+
+        text-align: center;
+        background-color: white ;
+        padding: 20px;
+        border: 20px;
+        margin: 20px;
+        font-weight: 900;
+    }
+    
+    .art__one {
+
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    article {
+
+        height: 400px;
+        width: 600px;
+        background-color: beige;
+        margin: 0 10px;
+        box-sizing: border-box;
+
+    }
+
+    form {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    input, textarea {
+
+        margin-top: 20px;
+    }
